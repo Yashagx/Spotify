@@ -1,0 +1,22 @@
+.fakeleftbar{
+    background-image: linear-gradient(rgb(40, 49, 88), rgb(22, 20, 22));
+    width: 262px;
+    height: 100vh;
+    
+}
+
+@media screen and (max-width:1027px)and (min-width:845px){
+    .fakeleftbar{
+        width: 232px;
+    }
+}
+@media screen and (max-width:845px){
+    .fakeleftbar{
+        width: 212px;
+    }
+}
+@media screen and (max-width:770px){ 
+    .fakeleftbar{
+        width: 200px;
+    }
+}

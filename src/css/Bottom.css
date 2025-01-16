@@ -1,0 +1,138 @@
+.bottom{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(22, 22, 22);
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    z-index: 999;
+}
+
+.left{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    margin-left: 18px;
+}
+.right{
+    width: 30%;
+    margin-right: 12px;
+}
+.middle{
+    width:40% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.movebar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.movebar input{
+    accent-color: white;
+    width: 89%;
+    height: 4px;
+    margin-top: 9px;
+}
+.movebar input:hover{
+    accent-color: rgb(36, 136, 36);
+}
+.tb{
+    width: 50px;
+    height: 62px;
+}
+.songName{
+    display: flex;
+    flex-direction: column;
+}
+.sname{
+    font-size: 15px;
+    margin:0 9px;
+    cursor: pointer;
+}
+.desc{
+    font-size: 10px;
+    margin:2px 9px;
+    cursor: pointer;
+    margin-right: 45px;
+}
+.heartp{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.heartp img{
+    width: 16px;
+    height: 15px;
+}
+#pnews{
+    height: 12.5px;
+    width: 15px;
+}
+.btnsforthis{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pbuttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
+}
+.pbuttons img{
+    border: none;
+    width: 15px;
+    height: 15px;
+    margin: 0 8px;
+}
+.pchildb
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#play{
+    width: 39px;
+    height: 36px;
+}
+.ricons{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+.pchildb img{
+    cursor: pointer;
+}
+.rbtns{
+    border: none;
+    width: 17px;
+    height: 17px;
+    margin: 0 8px;
+}
+.rbuttons img{
+    cursor: pointer;
+}
+.rbuttons{
+    margin-left: auto;
+}
+.ricons input{
+    accent-color: white;
+    height: 4px;
+    width: 95px;
+    margin-right: 9px;
+}
+.ricons input:hover{
+    accent-color: rgb(36, 136, 36);
+}
+.audionow{
+    display: none;
+}

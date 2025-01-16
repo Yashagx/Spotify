@@ -1,0 +1,37 @@
+@media screen and (max-width:989px) and (min-width:654px){
+    .name h3{
+        font-size: 25px;
+    }
+    .singer{
+        margin-left: 5px;
+    }
+    .imgspage img{
+        width: 200px;
+        height: 200px;
+    }
+    .name{
+        padding-top: 0;
+    }
+}
+@media screen and (max-width:653px){
+    .like-container{
+        width: fit-content;
+    }
+    .name h3{
+        margin-top: 9px;
+        font-size: 25px;
+    }
+    .singer{
+        margin-left: 5px;
+    }
+    .imgspage img{
+        width: 200px;
+        height: 200px;
+    }
+    .name{
+        padding-top: 0;
+    }
+    .playlistpagecont,.like-container,.likecontafprev{
+        height: 140vh;
+    }
+}

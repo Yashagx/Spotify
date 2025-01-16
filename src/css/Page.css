@@ -1,0 +1,191 @@
+.pageparentparent{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-image: linear-gradient(rgb(40, 49, 88), rgb(22, 20, 22));
+}
+.pagechildchild{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 15vh;
+}
+.pageinsidecont{
+  width: 77.85%;
+  margin-left: 1.2vw;
+    padding-top: 2vh;
+    margin-right: 3.5vw;
+}
+.header{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+  }
+  .arrows{
+      display: flex;
+      flex-direction: row;
+  }
+  .arrowspeice{
+      width: 16px;
+      height: 16px;
+  }
+  .arr{
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(44, 37, 37);
+      width:35px;
+      height: 35px;
+      border-radius: 50%;
+      margin-right: 15px;
+      border: none;
+  }
+  .userbtn img{
+      width: 27.5px;
+      height: 27.5px;
+      border-radius: 50%;
+      margin-right: 15px;
+  }
+  .buttons{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-right: 19px;
+  }
+  .contact-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-left: auto;
+  }
+  .userbtn{
+      cursor: pointer;
+      margin-left: 12px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background-color: rgb(22, 20, 22);
+      height: 29px;
+      width: 148px;
+      color: white;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 14px;
+      border-radius: 19px;
+      border: 1.5px solid rgb(168, 168, 168);
+  }
+  .ubtn{
+      cursor: pointer;
+      background-color: rgb(22, 20, 22);
+      height: 34px;
+      width: 148px;
+      color: white;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 14px;
+      border-radius: 19px;
+      border: 1.5px solid rgb(168, 168, 168);
+  }
+  .unArr{
+      margin-left: 19px;
+  }
+  .greet{
+      color: white;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 26px;
+      margin-top: 6px;
+  }
+  .indexformusic{
+    display: flex;
+    align-items: center;
+  }
+  .ipbox{
+      display: flex;
+      flex-direction: row;
+      background-image: linear-gradient(45deg,rgb(33, 37, 54), rgb(87, 77, 92));
+      border-radius: 5px;
+      width: 310px;
+      height: 80px;
+      margin-bottom: 16px;
+      cursor: pointer;
+      text-decoration: none;
+      margin-right: 9px;
+  }
+  .ipimg img{
+        width: 80px;
+        height: 80px;
+        border-radius: 5px;
+  }
+  .boxtext{
+      margin: auto;
+      margin-left: 15px;
+  }
+  .boxtext p{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16.75px;
+  }
+  .indexformusic{
+      display: grid;
+      grid-template-columns: repeat(4,1fr); 
+  }
+  .bgcolorpg:hover{
+      background-image: linear-gradient(45deg,rgb(63, 79, 150), rgb(101, 89, 107));
+  }    
+  .ipbox:hover  .greenplay>img{
+    display: block;
+  }
+  .greenplay{
+    display: flex;
+    align-items: center;
+    height: 100%;
+   
+  }
+  .greenplay img{
+    width: 50px;
+    height: 50px;
+    margin-right: 12px;
+    display: none;
+  }
+  .greetliketext{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .exboxes{
+      background-color: rgb(30, 29, 34);
+      display: flex;
+      flex-direction: column;
+      width: 202px;
+      height: 285px;
+      align-items: center;
+      border-radius: 7px;
+      margin-right: 1vw;
+  }
+  .exboxes img{
+    margin-top: 15px;
+      width: 165px;
+      height: 175px;
+      border-radius: 5px;
+      margin-bottom: 9px;
+  }
+  .authorex{
+      width: 85%;
+    margin:6px 0;
+    color: white;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .exbg:hover{
+    background-color: rgb(51, 49, 58);
+  }
+  .channelex{
+    width: 79%;
+    color: white;
+    font-size: 12px;
+    text-align: left;
+  }
+  .exclusives{
+      display: grid;
+      grid-template-columns: repeat(6,1fr);
+  }

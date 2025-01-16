@@ -1,0 +1,59 @@
+.library-container{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15vh;
+    background-image: linear-gradient(rgb(40, 49, 88), rgb(22, 20, 22));
+  }
+  /* 911 1595*/
+
+  .somelibrbarycls{
+      display: flex;
+      flex-direction: row;
+  }
+  .library-moveright{
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.2vw;
+    padding-top: 2vh;
+  }
+  .exclusivespg{
+      display: flex;
+      flex-direction: column;
+  }
+.plsylistboxblur{
+    width: 430px;
+    height: 285px;
+    background:linear-gradient(145deg,rgb(44, 44, 196),rgb(120, 102, 139));
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 22px;
+}
+
+.h3wherelike{
+    padding-top: 29%;
+}
+.h3wherelike  h3{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    font-size: 35px;
+    margin-left: 15px;
+}
+.h3wherelike  p{
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 15px;
+}
+.plsylistboxblur-cont{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    width: 45vw;
+}
+.playlistpageheader h3{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+}

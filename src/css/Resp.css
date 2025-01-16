@@ -1,0 +1,445 @@
+@media screen and (min-width:1627px) {
+    .pagechildchild{
+        background-image: linear-gradient(rgb(40, 49, 88), rgb(22, 20, 22));
+        
+    }
+    .pageparentparent{
+        margin-right: 0;
+    }
+     .pageinsidecont{
+        width: 78vw;
+      } 
+}
+
+@media screen and (max-width:1627px) and (min-width:1586px){
+    .indexformusic {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .exboxes{
+        background-color: rgb(30, 29, 34);
+        display: flex;
+        flex-direction: column;
+        width: 190px;
+        height: 275px;
+        align-items: center;
+        border-radius: 7px;
+        margin-right: 1vw;
+    }
+}
+
+@media screen and (max-width:1586px)and (min-width:1352px){
+    .indexformusic {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .exclusives{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    }
+    .exboxes{
+        background-color: rgb(30, 29, 34);
+        display: flex;
+        flex-direction: column;
+        width: 195px;
+        height: 280px;
+        align-items: center;
+        border-radius: 7px;
+        margin-right: 1vw;
+        margin-bottom: 19px;
+    }
+    /* .pageinsidecont{
+        width: 74.85%;
+        margin-left: auto;
+      } */
+    
+}
+@media screen and (max-width:1352px)and (min-width:1106px){
+    .ipbox{
+        width:22vw
+    }
+    .indexformusic {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .exclusives{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .exboxes{
+        background-color: rgb(30, 29, 34);
+        display: flex;
+        flex-direction: column;
+        width: 190px;
+        height: 280px;
+        align-items: center;
+        border-radius: 7px;
+        margin-right: 1vw;
+        margin-bottom: 19px;
+    }
+    /* .pageinsidecont{
+        width: 70.4%;
+        margin-left: auto;
+      } */
+    
+}
+@media screen and (max-width:1106px)and (min-width:840px){
+    .ipbox{
+        width:30vw
+    }
+    .indexformusic {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .exclusives{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .exboxes{
+        background-color: rgb(30, 29, 34);
+        display: flex;
+        flex-direction: column;
+        width: 190px;
+        height: 280px;
+        align-items: center;
+        border-radius: 7px;
+        margin-right: 1vw;
+        margin-bottom: 19px;
+    }
+    /* .pageinsidecont{
+        width: 67.4%;
+        margin-left: auto;
+      } */
+    
+}
+@media screen and (max-width:840px)and (min-width:792px){
+    .ipbox{
+        width:30vw
+    }
+    .indexformusic {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .exclusives{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .exboxes{
+        background-color: rgb(30, 29, 34);
+        display: flex;
+        flex-direction: column;
+        width: 175px;
+        height: 270px;
+        align-items: center;
+        border-radius: 7px;
+        margin-right: 1vw;
+        margin-bottom: 19px;
+    }
+    .exboxes img{
+        width: 160px;
+        height: 170px;
+    }
+    /* .pageinsidecont{
+        width: 67.4%;
+        margin-left: auto;
+      } */
+    
+}
+@media screen and (max-width:792px)and (min-width:654px){
+    .ipbox{
+        width:30vw
+    }
+    .indexformusic {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .exclusives{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .exboxes{
+        background-color: rgb(30, 29, 34);
+        display: flex;
+        flex-direction: column;
+        width: 175px;
+        height: 270px;
+        align-items: center;
+        border-radius: 7px;
+        margin-right: 1vw;
+        margin-bottom: 19px;
+    }
+    .boxtext p{
+        font-size: 11px;
+    }
+    .authorex {
+        font-size: 12px;
+    }
+    .channelex{
+        font-size: 10.5px;
+    }
+    .exboxes img{
+        width: 160px;
+        height: 170px;
+    }
+    /* .pageinsidecont{
+        width: 62.4%;
+        margin-left: auto;
+      } */
+    
+}
+
+@media screen and (max-width:654px)and (min-width:648px){
+    .ipbox{
+        width:30vw
+    }
+    .indexformusic {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .exclusives{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .exboxes{
+        background-color: rgb(30, 29, 34);
+        display: flex;
+        flex-direction: column;
+        width: 169px;
+        height: 265px;
+        align-items: center;
+        border-radius: 7px;
+        margin-right: 1vw;
+        margin-bottom: 19px;
+    }
+    .boxtext p{
+        font-size: 11px;
+    }
+    .authorex {
+        font-size: 12px;
+    }
+    .channelex{
+        font-size: 10.5px;
+    }
+    .exboxes img{
+        width: 155px;
+        height: 160px;
+    }
+    /* .pageinsidecont{
+        width: 62.4%;
+        margin-left: auto;
+      } */
+    
+}
+
+@media screen and (max-width:653px){
+    .ipbox{
+        width:305px;
+    }
+    .indexformusic {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .exclusives{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .exboxes{
+        background-color: rgb(30, 29, 34);
+        display: flex;
+        flex-direction: column;
+        width: 169px;
+        height: 265px;
+        align-items: center;
+        border-radius: 7px;
+        margin-right: 1vw;
+        margin-bottom: 19px;
+    }
+    .boxtext p{
+        font-size: 11px;
+    }
+    .authorex {
+        font-size: 12px;
+    }
+    .channelex{
+        font-size: 10.5px;
+    }
+    .exboxes img{
+        width: 155px;
+        height: 160px;
+    }
+       .pagechildchild{
+           width: max-content;
+        background-image: linear-gradient(rgb(40, 49, 88), rgb(22, 20, 22));
+        padding-right: 1vw;
+      } 
+      .pageparentparent{
+        background-image: linear-gradient(rgb(40, 49, 88), rgb(22, 20, 22));
+      }
+}
+
+/* 
+@media screen and (max-width:648px)and (min-width:600px){
+    .ipbox{
+        width:30vw;
+        height: 60px;
+    }
+    .ipbox img{
+        width: 60px;
+        height: 60px;
+    }
+    .indexformusic {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .exclusives{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .exboxes{
+        background-color: rgb(30, 29, 34);
+        display: flex;
+        flex-direction: column;
+        width: 169px;
+        height: 265px;
+        align-items: center;
+        border-radius: 7px;
+        margin-right: 1vw;
+        margin-bottom: 19px;
+    }
+    .boxtext p{
+        font-size: 11px;
+    }
+    .authorex {
+        font-size: 12px;
+    }
+    .channelex{
+        font-size: 10.5px;
+    }
+    .exboxes img{
+        width: 155px;
+        height: 160px;
+    }
+    
+    
+}
+
+@media screen and (max-width:600px)and (min-width:485px){
+    .ipbox{
+        width:42vw;
+        height: 60px;
+    }
+    .ipbox img{
+        width: 60px;
+        height: 60px;
+    }
+    .indexformusic {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .exclusives{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .exboxes{
+        background-color: rgb(30, 29, 34);
+        display: flex;
+        flex-direction: column;
+        width: 189px;
+        height: 265px;
+        align-items: center;
+        border-radius: 7px;
+        margin-bottom: 19px;
+    }
+    .boxtext p{
+        font-size: 11px;
+    }
+    .authorex {
+        font-size: 12px;
+    }
+    .channelex{
+        font-size: 10.5px;
+    }
+    .exboxes img{
+        width: 165px;
+        height: 160px;
+    }
+      .pchildb img,.rbtns{
+          width: 12px;
+          height: 12px;
+      }
+      .heartp{
+          display: none;
+      }
+      .right{
+          display: none;
+      }
+      .arr{
+          width: 16px;
+          height: 18px;
+      }
+      #play{
+          width: 13px;
+          height: 13px;
+      }
+}
+
+@media screen and (max-width:485px){
+   
+    .ipbox{
+        width:42vw;
+        height: 60px;
+    }
+    .ipbox img{
+        width: 60px;
+        height: 60px;
+    }
+    .indexformusic {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .exclusives{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .exboxes{
+        background-color: rgb(30, 29, 34);
+        display: flex;
+        flex-direction: column;
+        width: 189px;
+        height: 265px;
+        align-items: center;
+        border-radius: 7px;
+        margin-bottom: 19px;
+    }
+    .boxtext p{
+        font-size: 11px;
+    }
+    .authorex {
+        font-size: 12px;
+    }
+    .channelex{
+        font-size: 10.5px;
+    }
+    .exboxes img{
+        width: 165px;
+        height: 160px;
+    }
+      .pchildb img,.rbtns{
+          width: 12px;
+          height: 12px;
+      }
+      .heartp{
+          display: none;
+      }
+      .right{
+          display: none;
+      }
+      .arr{
+          width: 16px;
+          height: 18px;
+      }
+      #play{
+          width: 13px;
+          height: 13px;
+      }
+} */

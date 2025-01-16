@@ -1,0 +1,20 @@
+@media screen and (max-width:989px) and (min-width:654px){
+    .name h3{
+        font-size: 25px;
+    }
+    .singer{
+        margin-left: 5px;
+    }
+    .imgspage img{
+        width: 200px;
+        height: 200px;
+    }
+    .name{
+        padding-top: 0;
+    }
+}
+@media screen and (max-width:653px){
+    .like-container{
+        background-image: linear-gradient(rgb(40, 49, 88), rgb(22, 20, 22));
+    }
+}

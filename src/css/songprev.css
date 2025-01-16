@@ -1,0 +1,123 @@
+.like-container{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15vh;
+    background-image: linear-gradient(rgb(40, 49, 88), rgb(22, 20, 22));
+}
+.previewinsinglecony{
+    width: 77.8%;
+    margin-left: 1.25vw;
+    padding-top: 2vh;
+    margin-right: 3.5vw;
+}
+
+.songprev{
+    margin-top: 29px;
+    height: 235px;
+}
+.imgspage img{
+    width: 235px;
+    height: 235px;
+}
+.itemofsongpreev{
+    display: flex;
+    flex-direction: row;
+}
+.name h3{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 75px;
+    margin: 0 0;
+}
+.singer{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 11px;
+    margin-top: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.aboutsong{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.smallimgforsinger{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 18px;
+    margin-right: 6px;
+}
+.name{
+    padding-top: 101px;
+    margin-left: 29px;
+}
+.singer{
+    margin-left: 29px;
+}
+.songslists{
+    margin-top: 6vh;
+}
+.upperlisticons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.upperlisticons img{
+    width: 36px;
+    height: 36px;
+    margin: 0 16px;
+}
+.greenplaybtnprev img{
+    width: 69px;
+    height: 69px;
+}
+.titleline{
+    border-bottom: 0.5px solid  rgb(77, 77, 77);
+}
+.titleline p{
+    color: white;
+    word-spacing: 12px;
+    margin-left: 16px;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+.propsnamelist{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+.number p{
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    margin-right: 19px;
+    margin-left: 12px;
+}
+.nameofsongprop p{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+
+}
+.duration p{
+    width: fit-content;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+.leftlist{
+    display: flex;
+    flex-direction: row;
+}
+.rightlist{
+    margin-left: auto;
+    margin-right: 19px;
+}
+
+

@@ -1,0 +1,13 @@
+.main-container{
+    width: 100%;
+    padding-bottom: 19vh;
+    background-image: linear-gradient(rgb(40, 49, 88), rgb(22, 20, 22));
+  }
+  .moveright{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    padding-top: 2vh;
+    margin-right: 3.5vw;
+  }

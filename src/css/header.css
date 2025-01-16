@@ -1,0 +1,70 @@
+
+.true{
+    background-color: white;
+    height: 42px;
+    width: 330px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.true img{
+    width: 30px;
+    height: 30px;
+    margin-left: 9px;
+    margin-right: 12px;
+}
+.true input{
+    width: 75%;
+    outline: none;
+    border: none;
+}
+
+.hidden{
+    background-color: white;
+    height: 42px;
+    width: 330px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: none;
+}
+.hidden img{
+    width: 30px;
+    height: 30px;
+    margin-left: 9px;
+    margin-right: 12px;
+    display: none;
+}
+.hidden input{
+    width: 75%;
+    outline: none;
+    border: none;
+    display: none;
+}
+@media screen and (max-width:648px){
+    .arrowspeice {
+        width: 13px;
+        height: 13px;
+    }
+    .ubtn {
+        padding: 0 6px;
+        font-size: 8px;
+        width: fit-content;
+    }
+    .userbtn{
+        padding: 0 6px;
+        width: fit-content;
+    }
+    .userbtn p{
+        font-size: 8px;
+    }
+    .userbtn img{
+        width: 15px;
+        height: 15px;
+    }
+    .unArr{
+        margin: 0 3px;
+    }
+}

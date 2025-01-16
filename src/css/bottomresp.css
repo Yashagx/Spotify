@@ -1,0 +1,16 @@
+@media screen and (max-width:680px){
+    .btnsforthis{
+        display: none;
+    }
+}
+@media screen and (max-width:611px){
+    .btnsforthis{
+        display: none;
+    }
+    .rbuttons{
+        display: none;
+    }
+    .ricons{
+        margin-left: 6vw;
+    }
+}
